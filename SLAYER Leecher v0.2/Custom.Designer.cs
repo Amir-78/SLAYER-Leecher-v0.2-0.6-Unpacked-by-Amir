@@ -1,0 +1,114 @@
+﻿// Token: 0x02000012 RID: 18
+[global::Microsoft.VisualBasic.CompilerServices.DesignerGenerated]
+public partial class Custom : global::System.Windows.Forms.Form
+{
+	// Token: 0x06000064 RID: 100 RVA: 0x000061FC File Offset: 0x000043FC
+	[global::System.Diagnostics.DebuggerStepThrough]
+	private void InitializeComponent()
+	{
+		this.Label1 = new global::System.Windows.Forms.Label();
+		this.Label2 = new global::System.Windows.Forms.Label();
+		this.OKE = new global::System.Windows.Forms.Button();
+		this.Frm = new global::System.Windows.Forms.TextBox();
+		this.Too = new global::System.Windows.Forms.TextBox();
+		this.DT1 = new global::System.Windows.Forms.DateTimePicker();
+		this.DT2 = new global::System.Windows.Forms.DateTimePicker();
+		this.SuspendLayout();
+		this.Label1.AutoSize = true;
+		this.Label1.Font = new global::System.Drawing.Font("Tahoma", 9f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
+		global::System.Windows.Forms.Control label = this.Label1;
+		global::System.Drawing.Point location = new global::System.Drawing.Point(12, 9);
+		label.Location = location;
+		this.Label1.Name = "Label1";
+		global::System.Windows.Forms.Control label2 = this.Label1;
+		global::System.Drawing.Size size = new global::System.Drawing.Size(46, 14);
+		label2.Size = size;
+		this.Label1.TabIndex = 0;
+		this.Label1.Text = "From : ";
+		this.Label2.AutoSize = true;
+		this.Label2.Font = new global::System.Drawing.Font("Tahoma", 9f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
+		global::System.Windows.Forms.Control label3 = this.Label2;
+		location = new global::System.Drawing.Point(12, 44);
+		label3.Location = location;
+		this.Label2.Name = "Label2";
+		global::System.Windows.Forms.Control label4 = this.Label2;
+		size = new global::System.Drawing.Size(33, 14);
+		label4.Size = size;
+		this.Label2.TabIndex = 1;
+		this.Label2.Text = "To : ";
+		this.OKE.Cursor = global::System.Windows.Forms.Cursors.Hand;
+		global::System.Windows.Forms.Control oke = this.OKE;
+		location = new global::System.Drawing.Point(3, 71);
+		oke.Location = location;
+		this.OKE.Name = "OKE";
+		global::System.Windows.Forms.Control oke2 = this.OKE;
+		size = new global::System.Drawing.Size(205, 23);
+		oke2.Size = size;
+		this.OKE.TabIndex = 2;
+		this.OKE.Text = "OKE";
+		this.OKE.UseVisualStyleBackColor = true;
+		global::System.Windows.Forms.Control frm = this.Frm;
+		location = new global::System.Drawing.Point(63, 6);
+		frm.Location = location;
+		this.Frm.Name = "Frm";
+		global::System.Windows.Forms.Control frm2 = this.Frm;
+		size = new global::System.Drawing.Size(145, 21);
+		frm2.Size = size;
+		this.Frm.TabIndex = 4;
+		global::System.Windows.Forms.Control too = this.Too;
+		location = new global::System.Drawing.Point(63, 42);
+		too.Location = location;
+		this.Too.Name = "Too";
+		global::System.Windows.Forms.Control too2 = this.Too;
+		size = new global::System.Drawing.Size(145, 21);
+		too2.Size = size;
+		this.Too.TabIndex = 5;
+		this.DT1.Cursor = global::System.Windows.Forms.Cursors.Hand;
+		this.DT1.CustomFormat = "MM/dd/yyyy";
+		this.DT1.Format = global::System.Windows.Forms.DateTimePickerFormat.Custom;
+		global::System.Windows.Forms.Control dt = this.DT1;
+		location = new global::System.Drawing.Point(63, 6);
+		dt.Location = location;
+		global::System.Windows.Forms.DateTimePicker dt2 = this.DT1;
+		global::System.DateTime minDate = new global::System.DateTime(2015, 1, 1, 0, 0, 0, 0);
+		dt2.MinDate = minDate;
+		this.DT1.Name = "DT1";
+		global::System.Windows.Forms.Control dt3 = this.DT1;
+		size = new global::System.Drawing.Size(144, 21);
+		dt3.Size = size;
+		this.DT1.TabIndex = 6;
+		this.DT2.Cursor = global::System.Windows.Forms.Cursors.Hand;
+		this.DT2.CustomFormat = "MM/dd/yyyy";
+		this.DT2.Format = global::System.Windows.Forms.DateTimePickerFormat.Custom;
+		global::System.Windows.Forms.Control dt4 = this.DT2;
+		location = new global::System.Drawing.Point(63, 42);
+		dt4.Location = location;
+		global::System.Windows.Forms.DateTimePicker dt5 = this.DT2;
+		minDate = new global::System.DateTime(2015, 1, 1, 0, 0, 0, 0);
+		dt5.MinDate = minDate;
+		this.DT2.Name = "DT2";
+		global::System.Windows.Forms.Control dt6 = this.DT2;
+		size = new global::System.Drawing.Size(144, 21);
+		dt6.Size = size;
+		this.DT2.TabIndex = 7;
+		global::System.Drawing.SizeF autoScaleDimensions = new global::System.Drawing.SizeF(6f, 13f);
+		this.AutoScaleDimensions = autoScaleDimensions;
+		this.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.Font;
+		size = new global::System.Drawing.Size(219, 97);
+		this.ClientSize = size;
+		this.Controls.Add(this.DT2);
+		this.Controls.Add(this.DT1);
+		this.Controls.Add(this.Too);
+		this.Controls.Add(this.Frm);
+		this.Controls.Add(this.OKE);
+		this.Controls.Add(this.Label2);
+		this.Controls.Add(this.Label1);
+		this.Font = new global::System.Drawing.Font("Tahoma", 8.25f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
+		this.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+		this.Name = "Custom";
+		this.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterScreen;
+		this.Text = "Custom Range [MM/DD/YYYY]";
+		this.ResumeLayout(false);
+		this.PerformLayout();
+	}
+}
